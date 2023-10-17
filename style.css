@@ -1,0 +1,17 @@
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+#calculator {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    flex-direction: column;
+    margin: 10vh 40vw;
+    border: 2px black solid;
+}
+
+#buttons{
+    align-items: first baseline;
+}
