@@ -5,13 +5,56 @@ h1{
 
 #calculator {
     display: flex;
-    justify-content: space-between; 
     align-items: center;
+    justify-content: center ;
     flex-direction: column;
-    margin: 10vh 40vw;
-    border: 2px black solid;
+    border-radius: 10px;
+    box-shadow: 0 0 15px 1px;
+    margin: auto;
+    padding: 20px;
+    width: 20%;
+    height: 400px;
+    background-color: #2F4F4F;
 }
 
 #buttons{
-    align-items: first baseline;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 10px;
+}
+
+#buttons button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    margin: 2px;
+    border: none;
+    border-radius: 5px;
+    padding: 20px;
+    cursor: pointer;
+    background-color: #F5F5F5;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#buttons button:hover{
+    background-color: #cac;
+}
+
+input {
+    display: flex;
+    border: none;
+    border-radius: 2px;
+    background-color: #ccc;
+    min-width: 58%;
+    height: 30px;
+    font-size: 20px;
+    font-weight: bold;
 }

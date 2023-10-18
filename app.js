@@ -1,7 +1,7 @@
 const input = document.getElementById('input');
 const resultInput = document.getElementById('resultInput');
 
-const allowedKeys = ['7', '8', '9', '4', '5', '6', '1', '2', '3','+','-','*','/','.','0'];
+const allowedKeys = ['7','8','9','4','5','6','1','2','3','+','-','*','/','.','0','(',')','%'];
 
 document.querySelectorAll('.keyboard').forEach(function(keyboardBtn){
     keyboardBtn.addEventListener('click', function(){
