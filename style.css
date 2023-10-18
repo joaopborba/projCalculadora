@@ -11,9 +11,9 @@ h1{
     border-radius: 10px;
     box-shadow: 0 0 15px 1px;
     margin: auto;
-    padding: 20px;
-    width: 20%;
+    padding: 20px 0;
     height: 400px;
+    width: 20rem;
     background-color: #2F4F4F;
 }
 
@@ -53,7 +53,7 @@ input {
     border: none;
     border-radius: 2px;
     background-color: #ccc;
-    min-width: 58%;
+    min-width: 60%;
     height: 30px;
     font-size: 20px;
     font-weight: bold;
